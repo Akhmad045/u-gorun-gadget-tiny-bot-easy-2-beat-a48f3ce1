@@ -21,7 +21,7 @@ Why it beats buy-and-hold: in a falling window the momentum sleeve never fires (
 
 | Entry | Net PnL (USDC) | Trades | Max drawdown |
 |---|---|---|---|
-| This bot | **+50.46** | 20 | 3.31% |
+| This bot | **+50.35** | 20 | 3.31% |
 | buy-and-hold | −869.34 | 7 | 10.92% |
 | macd-cci | −20.22 | 17 | 2.46% |
 | rsi-bollinger | −56.49 | 8 | 5.16% |
@@ -30,6 +30,6 @@ Why it beats buy-and-hold: in a falling window the momentum sleeve never fires (
 | momentum | −268.23 | 19 | 5.66% |
 | hold-cash | 0.00 | 0 | 0.00% |
 
-The bot also beats buy-and-hold on a time-reversed (rising) copy of the dev window (+1,019 vs +904) and on both halves of the dev window.
+The bot also beats buy-and-hold on a time-reversed (rising) copy of the dev window (+1,014 vs +904) and on both halves of the dev window. The bot's own number is the kit's official `grade-local` result, verified twice with identical `result_sha256` (`d5a1af6ba6ae2c44d7194b6945e63f65533939fedc71b021fbe060e43606611a`); baseline numbers are from the same tool.
 
 Referral code: `4g7knchf`
